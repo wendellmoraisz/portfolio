@@ -1,6 +1,7 @@
 import React from "react";
 import { ProfileContainer, ProfileBg, ProfileInnerContainer, ProfileLeftContainer, ProfileRightContainer, Title, Role, SubTitle, ResumeButton, Image } from "./ProfileSectionStyles";
 import ProfileImage from "../../images/profile.jpg";
+import { Bio } from "../../utils/data/constants";
 
 const Profile = () => {
   return (
@@ -11,11 +12,11 @@ const Profile = () => {
         <ProfileInnerContainer>
           <ProfileLeftContainer>
             <Title>Olá, eu sou <br/>
-                Wendell Morais
+                {Bio.name}
             </Title>
-            <Role>Desenvolvedor Fullstack</Role>
-            <SubTitle>Descrição</SubTitle>
-            <ResumeButton target="blank">Ver Currículo</ResumeButton>
+            <Role>{Bio.role}</Role>
+            <SubTitle>{Bio.description}</SubTitle>
+            <ResumeButton href={Bio.resume} target="blank">Ver Currículo</ResumeButton>
           </ProfileLeftContainer>
           <ProfileRightContainer>
             <Image src={ProfileImage} alt="Profile Image"/>
