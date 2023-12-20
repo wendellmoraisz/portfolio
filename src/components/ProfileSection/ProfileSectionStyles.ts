@@ -28,9 +28,10 @@ export const ProfileBg = styled.div`
   bottom: 0;
   left: 50%;
   overflow: hidden;
-  width: 82%;
+  width: 110%;
   height: 100%;
   padding: 0 30px;
+  z-index: -1;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 
@@ -111,9 +112,9 @@ export const Title = styled.div`
 `;
 
 export const Role = styled.div`
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-weight: 600;
-  color: ${({ theme }) => theme.text_primary};
+  color: ${({ theme }) => theme.primary};
   line-height: 68px;
   gap: 12px;
   display: flex;
