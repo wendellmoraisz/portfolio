@@ -88,7 +88,7 @@ export const ButtonContainer = styled.div`
   height: 100%;
   padding: 0 6px;
 
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 765px) {
     display: none;
   }
 `;
@@ -134,15 +134,15 @@ export const MobileMenu = styled.div<MobileMenuProps>`
   justify-content: center;
   gap: 16px;
   position: absolute;
-  top: 80;
+  top: 80px;
   right: 0;
   width: 100%;
-  padding: 12px 40pc 24px 40px;
+  padding: 12px 40px 24px 40px;
   background-color: ${({ theme }) => theme.card_light};
   transition: all 0.2s ease-in-out;
-  transform: ${({ open }) => open ? "translateX(0)" : "translateX(100%)"};
+  transform: ${({ open }) => open ? "translateX(0)" : "translateX(-100%)"};
   border-radius: 0 0 20px 20px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
   opacity: ${({ open }) => open ? "1" : "0"};
   z-index: ${({ open }) => open ? "1" : "-1"};
 `;
