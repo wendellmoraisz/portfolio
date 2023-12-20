@@ -1,5 +1,6 @@
 import Experience from "../../interfaces/Experience";
 import ProfileBio from "../../interfaces/ProfileBio";
+import Project from "../../interfaces/Project";
 import SkillSection from "../../interfaces/SkillSection";
 
 export const Bio: ProfileBio = {
@@ -11,7 +12,7 @@ export const Bio: ProfileBio = {
   linkedin: "https://www.linkedin.com/in/wendell-morais/",
 };
 
-export const SkillsSections : SkillSection[] = [
+export const SkillsSections: SkillSection[] = [
   {
     title: "Frontend",
     skills: [
@@ -59,12 +60,12 @@ export const SkillsSections : SkillSection[] = [
       {
         name: "MySQL",
         image:
-        "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
       },
       {
         name: "MongoDB",
         image:
-        "https://www.svgrepo.com/show/331488/mongodb.svg",
+          "https://www.svgrepo.com/show/331488/mongodb.svg",
       },
       {
         name: "RabbitMQ",
@@ -118,7 +119,7 @@ export const SkillsSections : SkillSection[] = [
   },
 ];
 
-export const Experiences : Experience[] = [
+export const Experiences: Experience[] = [
   {
     id: 0,
     companyLogo: "https://media.licdn.com/dms/image/C4D0BAQHIhKiX05jbEQ/company-logo_200_200/0/1645028923044/telluriatecnologia_logo?e=2147483647&v=beta&t=5sGvA6lqLjOP-4pvXbnqi87Sf5d5D95bhn29RRk8NV4",
@@ -168,5 +169,113 @@ export const Experiences : Experience[] = [
       "Figma",
       "Git",
     ],
+  },
+];
+
+export const Projects: Project[] = [
+  {
+    id: 0,
+    title: "News Scraping Microservices",
+    description: "Aplicação com arquitetura de microsserviços que extrai novas notícias postados no site do IFPA Campus Altamira e as envia por e-mail.",
+    image: "https://i.imgur.com/c3VJobP.png",
+    tags: [
+      "C#",
+      ".NET",
+      "MySQL",
+      "MongoDB",
+      "Docker",
+      "Git",
+      "RabbitMQ",
+      "gRPC",
+      "Web Scraping",
+      "Clean Architecture",
+    ],
+    repository: "https://github.com/wendellmoraisz/news-scraping-microservices",
+  },
+  {
+    id: 1,
+    title: "News Scraping Monolithic",
+    description: "Aplicação que extrai notícias inseridas no site do IFPA Campus Altamira e enviadas por email.",
+    image: "https://i.imgur.com/yhBKTkB.png",
+    tags: [
+      "C#",
+      ".NET",
+      "MySQL",
+      "Docker",
+      "Git",
+      "Web Scraping",
+      "Clean Architecture",
+    ],
+    repository: "https://github.com/wendellmoraisz/news-scraping-monolithic",
+  },
+  {
+    id: 2,
+    title: "Emails Register Page",
+    description: "Página de cadastro por e-mail para receber atualizações de novidades do IFPA Campus Altamira.",
+    image: "https://i.imgur.com/wXDUrTo.png",
+    tags: [
+      "TypeScript",
+      "React Js",
+      "Material UI",
+      "React Toastfy",
+      "Git",
+    ],
+    repository: "https://github.com/wendellmoraisz/emails-register-page",
+  },
+  {
+    id: 3,
+    title: "Twitter Daily Cat",
+    description: "Bot que posta um gato todos os dias no Twitter criado usando Clean Architecture.",
+    image: "https://1000logos.net/wp-content/uploads/2017/06/Logo-Twitter.jpg",
+    tags: [
+      "Typescript",
+      "Node.js",
+      "Express.js",
+      "Docker",
+      "Twitter Api",
+      "Clean Architecture",
+    ],
+    repository: "https://github.com/wendellmoraisz/twitter-daily-cat-clean-architecture",
+  },
+  {
+    id: 4,
+    title: "Movies API",
+    description: "Api REST que permite gerenciamento de filmes, podendo cadastrá-los, editá-los, excluí-los e listá-los por paginação.",
+    image: "https://hips.hearstapps.com/hmg-prod/images/time-travel-movies-1581634382.jpg?crop=0.502xw:1.00xh;0.251xw,0&resize=640:*",
+    tags: [
+      "C#",
+      ".NET",
+      "Entity Framework Core",
+      "MySQL",
+      "REST Api",
+    ],
+    repository: "https://github.com/wendellmoraisz/movies-api",
+  },
+  {
+    id: 5,
+    title: "Sales Assigment",
+    description: "Sistema de gerenciamento de vendas e comissão de vendedores. Onde o usuário logado como gerente pode aprovar as vendas do vendedor e gerar relatórios de vendas e comissão.",
+    image: "https://i.imgur.com/CM4JKu8.png",
+    tags: [
+      "Javascript",
+      "React Js",
+      "Next.js",
+      "Styled Components",
+      "Firebase",
+    ],
+    repository: "https://github.com/wendellmoraisz/sales-assignment",
+    demo: "https://sales-assignment-lyart.vercel.app/",
+  },
+  {
+    id: 6,
+    title: "Games E-commerce",
+    description: "Frontend de um e-commerce de jogos, onde o usuário pode visualizar os jogos, adicioná-los ao carrinho e finalizar a compra. O sistema também possui uma página de admin para gerenciamento de estoque da loja.",
+    image: "https://raw.githubusercontent.com/wendellmoraisz/GamesEcommerce-client/3d1f4656610c25c2030411bb94bda46c1bbea5a5/public/screenshots/initial-page.png",
+    tags: [
+      "Typescript",
+      "React Js",
+      "Styled Components",
+    ],
+    repository: "https://github.com/wendellmoraisz/GamesEcommerce-client",
   },
 ];
