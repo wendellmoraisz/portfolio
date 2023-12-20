@@ -1,3 +1,4 @@
+import Experience from "../../interfaces/Experience";
 import ProfileBio from "../../interfaces/ProfileBio";
 import SkillSection from "../../interfaces/SkillSection";
 
@@ -113,6 +114,59 @@ export const SkillsSections : SkillSection[] = [
         image:
           "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
       },
+    ],
+  },
+];
+
+export const Experiences : Experience[] = [
+  {
+    id: 0,
+    companyLogo: "https://media.licdn.com/dms/image/C4D0BAQHIhKiX05jbEQ/company-logo_200_200/0/1645028923044/telluriatecnologia_logo?e=2147483647&v=beta&t=5sGvA6lqLjOP-4pvXbnqi87Sf5d5D95bhn29RRk8NV4",
+    role: "Estagiário de Desenvolvimento",
+    company: "Telluria Tecnologia",
+    date: "Out 2022 - Out 2023",
+    description: "Contribuição para o desenvolvimento de novas funcionalidades no backend, frontend e criação de scripts SQL, tendo auxiliado em migração de sistema legado para a Web. Além disso, participação na definição de escopo com a equipe de projetos e documentação de novas atualizações do sistema.",
+    skills: [
+      "C#",
+      ".NET",
+      "TypeScript",
+      "AngularJs",
+      "MySQL",
+      "Git",
+      "Scrum",
+      "Kanban",
+    ],
+  },
+  {
+    id: 1,
+    companyLogo: "https://t3.ftcdn.net/jpg/02/74/19/86/360_F_274198609_QWbxYbLnZaVbSW8UPRlCvs7ui1rO5ZzL.jpg",
+    role: "Desenvolvedor Web",
+    company: "Freelancer",
+    date: "Ago 2022 - Jan 2023",
+    description: "Auxílio no desenvolvimento de plataforma de vendas, realizando migração de JavaScript para TypeScript e implementação novas telas e funcionalidades. Além disso, integração do React Query e criação de consultas com Sanity.io para gerenciamento de conteúdo da plataforma.",
+    skills: [
+      "TypeScript",
+      "ReactJs",
+      "Next.js",
+      "React Query",
+      "Material UI",
+      "Sanity.io",
+      "Git",
+    ],
+  },
+  {
+    id: 2,
+    companyLogo: "https://media.licdn.com/dms/image/C4E0BAQGnZEWTF2wqKw/company-logo_200_200/0/1630577567812?e=2147483647&v=beta&t=2APllBfGIyMobjo5-F6j_uBs2IlGBYKW6nImSll7pyI",
+    role: "Desenvolvedor Frontend",
+    company: "Instituto Federal de Educação, Ciência e Tecnologia do Pará",
+    date: "Jun 2022 - Dez 2022",
+    description: "Auxílio no desenvolvimento de página Web, com o propósito de disseminar a cultura e o turismo na cidade de Altamira - Pará.",
+    skills: [
+      "Javascript",
+      "HTML",
+      "CSS",
+      "Figma",
+      "Git",
     ],
   },
 ];
