@@ -1,3 +1,4 @@
+import Education from "../../interfaces/Education";
 import Experience from "../../interfaces/Experience";
 import ProfileBio from "../../interfaces/ProfileBio";
 import Project from "../../interfaces/Project";
@@ -277,5 +278,48 @@ export const Projects: Project[] = [
       "Styled Components",
     ],
     repository: "https://github.com/wendellmoraisz/GamesEcommerce-client",
+  },
+];
+
+export const Educations: Education[] = [
+  {
+    id: 0,
+    courseName: "Tecnologia em Análise e Desenvolvimento de Sistemas",
+    schoolName: "Instituto Federal de Educação, Ciência e Tecnologia do Pará",
+    schollLogo: "https://media.licdn.com/dms/image/C4E0BAQGnZEWTF2wqKw/company-logo_200_200/0/1630577567812?e=2147483647&v=beta&t=2APllBfGIyMobjo5-F6j_uBs2IlGBYKW6nImSll7pyI",
+    date: "Fev 2021 - Dez 2023",
+    description: "Durante o curso, tive participação ativa em iniciativas da instituição, como projetos de monitoria e extensão. Além disso, fiz parte do XV Seminário de Iniciação Científica, Tecnológica e Inovação.",
+  },
+  {
+    id: 1,
+    courseName: "Creating .NET Core Microservices using Clean Architecture",
+    schoolName: "Udemy",
+    schollLogo: "data:image/png;base64,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",
+    date: "Nov 2023 - Dez 2023",
+    description: "O curso abordou conceitos teóricos de práticos da construção de Microsserviços com C# e .NET, seguindo os princípios da Clean Architecture. Passando também por tópicos como Mensageria, padrão publish/subscribe, gRPC e Docker.",
+  },
+  {
+    id: 2,
+    courseName: "Bootcamp WEX - Desenvolvimento .NET e QA",
+    schoolName: "Digital Innovatio One",
+    schollLogo: "https://pbs.twimg.com/profile_images/1732082010036789248/c1VlhTHM_400x400.jpg",
+    date: "Ago 2023 - Nov 2023",
+    description: "Bootcamp focado no ambiente .NET e Qualidade de Software. Nele, aprofundei meus conhecimentos em C#, .NET Core, ASP.NET e SQL Server. Além disso, tive a oportunidade de ter contato com testes automatizados, criando um projeto prático no final da jornada.",
+  },
+  {
+    id: 3,
+    courseName: "Curso Web Moderno Completo com Javascript + Projetos",
+    schoolName: "Udemy",
+    schollLogo: "data:image/png;base64,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",
+    date: "Mai 2023 - Dez 2023",
+    description: "Curso fullstack focado em ReactJS, AngularJS, Typescript, HTML, CSS, Node.js, MySQL e MongoDB. Com desenvolvimento de projetos práticos utilizando as tecnologias.",
+  },
+  {
+    id: 4,
+    courseName: "Bootcamp TQI FullStack Developer",
+    schoolName: "Digital Innovatio One",
+    schollLogo: "https://pbs.twimg.com/profile_images/1732082010036789248/c1VlhTHM_400x400.jpg",
+    date: "Mai 2022 - Jul 2022",
+    description: "Nessa formação fullstack, pude aprofundar meus conhecimentos em ReactJS, Typescript, HTML, CSS e MySQL. Também tive contato Java e Spring Boot no backend. Ao final da formação, pude criar um projeto fullstack com as tecnologias citadas.",
   },
 ];
