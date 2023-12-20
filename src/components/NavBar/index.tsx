@@ -12,9 +12,7 @@ const NavBar = () => {
     <Nav>
       <NavContainer>
         <NavLogo to="/">
-          <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: "20" }}>
             <BsTerminal size="2rem" /> <Span>Portfólio</Span>
-          </a>
         </NavLogo>
         <MobileIcon>
           <FaBars
