@@ -29,6 +29,7 @@ export const NavContainer = styled.div`
 
 export const NavLogo = styled(LinkR)`
   width: 80%;
+  color: ${({ theme }) => theme.text_primary};
   padding: 0 6px;
   display: flex;
   justify-content: start;
@@ -103,9 +104,10 @@ export const GitHubButton = styled.a`
   padding: 0 20px;
   font-size: 1rem;
   font-weight: 500;
-  cursor: pointer;
   height: 70%;
   text-decoration: none;
+  transition: all 0.2s ease-in-out;
+
   &:hover {
     background-color: ${({ theme }) => theme.primary};
     color: ${({ theme }) => theme.white};

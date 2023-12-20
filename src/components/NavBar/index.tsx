@@ -3,6 +3,7 @@ import { useTheme } from "styled-components";
 import { BsTerminal } from "react-icons/bs";
 import { FaBars } from "react-icons/fa";
 import { Nav, NavContainer, NavLogo, NavItems, NavLink, ButtonContainer, GitHubButton, MobileIcon, MobileMenu, MobileMenuLinks, Span } from "./NavBarStyles";
+import { Bio } from "../../utils/data/constants";
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -27,7 +28,7 @@ const NavBar = () => {
           <NavLink href="#education">Educação</NavLink>
         </NavItems>
         <ButtonContainer>
-          <GitHubButton>GitHub</GitHubButton>
+          <GitHubButton href={Bio.github} target="_blank">GitHub</GitHubButton>
         </ButtonContainer>
       </NavContainer>
       {
