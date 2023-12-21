@@ -291,6 +291,14 @@ export const Educations: Education[] = [
     description: "Durante o curso, tive participação ativa em iniciativas da instituição, como projetos de monitoria e extensão. Além disso, fiz parte do XV Seminário de Iniciação Científica, Tecnológica e Inovação.",
   },
   {
+    id: 5,
+    courseName: "Criando uma API Web com os controladores do ASP.NET",
+    schoolName: "Microsoft Learn",
+    schollLogo: "https://media.licdn.com/dms/image/C560BAQE88xCsONDULQ/company-logo_200_200/0/1630652622688/microsoft_logo?e=1710979200&v=beta&t=vA09LWpTwIKbKYRC-0Ckt59DJwFua-pHggl6iN4JW1o",
+    date: "Dez 2023",
+    description: "Neste curso, pude aprofundar meus conhecimentos em ASP.NET e entender melhor como sua estrutura de requisições HTTP funciona.",
+  },
+  {
     id: 1,
     courseName: "Creating .NET Core Microservices using Clean Architecture",
     schoolName: "Udemy",
