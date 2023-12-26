@@ -309,7 +309,7 @@ export const Educations: Education[] = [
   {
     id: 2,
     courseName: "Bootcamp WEX - Desenvolvimento .NET e QA",
-    schoolName: "Digital Innovatio One",
+    schoolName: "Digital Innovation One",
     schollLogo: "https://pbs.twimg.com/profile_images/1732082010036789248/c1VlhTHM_400x400.jpg",
     date: "Ago 2023 - Nov 2023",
     description: "Bootcamp focado no ambiente .NET e Qualidade de Software. Nele, aprofundei meus conhecimentos em C#, .NET Core, ASP.NET e SQL Server. Além disso, tive a oportunidade de ter contato com testes automatizados, criando um projeto prático no final da jornada.",
@@ -325,7 +325,7 @@ export const Educations: Education[] = [
   {
     id: 4,
     courseName: "Bootcamp TQI FullStack Developer",
-    schoolName: "Digital Innovatio One",
+    schoolName: "Digital Innovation One",
     schollLogo: "https://pbs.twimg.com/profile_images/1732082010036789248/c1VlhTHM_400x400.jpg",
     date: "Mai 2022 - Jul 2022",
     description: "Nessa formação fullstack, pude aprofundar meus conhecimentos em ReactJS, Typescript, HTML, CSS e MySQL. Também tive contato Java e Spring Boot no backend. Ao final da formação, pude criar um projeto fullstack com as tecnologias citadas.",
