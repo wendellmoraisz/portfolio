@@ -122,6 +122,27 @@ export const SkillsSections: SkillSection[] = [
 
 export const Experiences: Experience[] = [
   {
+    id: 3,
+    companyLogo: "https://media.licdn.com/dms/image/v2/D4D0BAQEFj-fwmW3OxQ/company-logo_200_200/company-logo_200_200/0/1714392880614/alrightmediatech_logo?e=1733356800&v=beta&t=iaEpXZVoZ84yMdcQhsULgkMYAQYw40fkurL1EGtVJi0",
+    role: "Desenvolvedor Fullstack Júnior",
+    company: "Alright",
+    date: "Fev 2024 - Atualmente",
+    description: "Responsável pelo desenvolvimento de interfaces com React e TypeScript, criação e manutenção de APIs em PHP com Laravel, e elaboração de scripts Python para tratamento de dados e automação de processos. Experiência em versionamento de código com Git e GitHub, manipulação de bancos de dados MySQL e Google BigQuery, e suporte à equipe de operações na implantação de anúncios em websites. Atuando dentro do framework ágil Scrum, utilizando a ferramenta Monday para gestão de tarefas.",
+    skills: [
+      "TypeScript",
+      "ReactJs",
+      "PHP",
+      "Laravel",
+      "Python",
+      "MySQL",
+      "Google BigQuery",
+      "Apache Web Server",
+      "Amazon AWS",
+      "Git",
+      "Scrum",
+    ],
+  },
+  {
     id: 0,
     companyLogo: "https://media.licdn.com/dms/image/C4D0BAQHIhKiX05jbEQ/company-logo_200_200/0/1645028923044/telluriatecnologia_logo?e=2147483647&v=beta&t=5sGvA6lqLjOP-4pvXbnqi87Sf5d5D95bhn29RRk8NV4",
     role: "Estagiário de Desenvolvimento",
