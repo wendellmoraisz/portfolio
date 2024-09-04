@@ -1,7 +1,6 @@
 import React from "react";
 import { ProfileContainer, ProfileBg, ProfileInnerContainer, ProfileLeftContainer, ProfileRightContainer, Title, Role, SubTitle, ResumeButton, Image } from "./ProfileSectionStyles";
 import ProfileImage from "../../images/profile.jpg";
-import ProfileBgAnimation from "../ProfileBgAnimation";
 import { Bio } from "../../utils/data/constants";
 
 const Profile = () => {
@@ -9,7 +8,6 @@ const Profile = () => {
     <div id="about">
       <ProfileContainer>
         <ProfileBg>
-          <ProfileBgAnimation/>
         </ProfileBg>
         <ProfileInnerContainer>
           <ProfileLeftContainer>
