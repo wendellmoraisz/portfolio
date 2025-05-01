@@ -5,6 +5,8 @@ import { FooterContainer, FooterWrapper, Logo, Nav, NavLink, SocialMediaIcons, S
 import { Bio } from "../../utils/data/constants";
 
 function Footer() {
+  const currentYear = new Date().getFullYear();
+
   return (
     <FooterContainer>
       <FooterWrapper>
@@ -21,7 +23,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2023 Wendell Morais. Todos os direitos reservados.
+          &copy; {currentYear} Wendell Morais. Todos os direitos reservados.
         </Copyright>
       </FooterWrapper>
     </FooterContainer>
