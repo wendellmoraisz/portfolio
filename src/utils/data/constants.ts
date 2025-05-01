@@ -4,6 +4,11 @@ import ProfileBio from "../../interfaces/ProfileBio";
 import Project from "../../interfaces/Project";
 import SkillSection from "../../interfaces/SkillSection";
 
+import AlrigthLogo from "../../images/logos/alright.png";
+import TelluriaLogo from "../../images/logos/telluria.png";
+import FreelancerLogo from "../../images/logos/freelancer.png";
+import IFPALogo from "../../images/logos/ifpa.png";
+
 export const Bio: ProfileBio = {
   name: "Wendell Morais",
   role: "Desenvolvedor Fullstack",
@@ -123,7 +128,7 @@ export const SkillsSections: SkillSection[] = [
 export const Experiences: Experience[] = [
   {
     id: 3,
-    companyLogo: "https://media.licdn.com/dms/image/v2/D4D0BAQEFj-fwmW3OxQ/company-logo_200_200/company-logo_200_200/0/1714392880614/alrightmediatech_logo?e=1733356800&v=beta&t=iaEpXZVoZ84yMdcQhsULgkMYAQYw40fkurL1EGtVJi0",
+    companyLogo: AlrigthLogo,
     role: "Desenvolvedor Fullstack",
     company: "Alright - Tempo integral",
     date: "Fev 2024 - Atualmente",
@@ -144,7 +149,7 @@ export const Experiences: Experience[] = [
   },
   {
     id: 0,
-    companyLogo: "https://media.licdn.com/dms/image/C4D0BAQHIhKiX05jbEQ/company-logo_200_200/0/1645028923044/telluriatecnologia_logo?e=2147483647&v=beta&t=5sGvA6lqLjOP-4pvXbnqi87Sf5d5D95bhn29RRk8NV4",
+    companyLogo: TelluriaLogo,
     role: "Desenvolvedor Fullstack",
     company: "Telluria Tecnologia - Estágio",
     date: "Out 2022 - Out 2023",
@@ -162,7 +167,7 @@ export const Experiences: Experience[] = [
   },
   {
     id: 1,
-    companyLogo: "https://t3.ftcdn.net/jpg/02/74/19/86/360_F_274198609_QWbxYbLnZaVbSW8UPRlCvs7ui1rO5ZzL.jpg",
+    companyLogo: FreelancerLogo,
     role: "Desenvolvedor Web",
     company: "Freelancer",
     date: "Ago 2022 - Jan 2023",
@@ -179,7 +184,7 @@ export const Experiences: Experience[] = [
   },
   {
     id: 2,
-    companyLogo: "https://media.licdn.com/dms/image/C4E0BAQGnZEWTF2wqKw/company-logo_200_200/0/1630577567812?e=2147483647&v=beta&t=2APllBfGIyMobjo5-F6j_uBs2IlGBYKW6nImSll7pyI",
+    companyLogo: IFPALogo,
     role: "Desenvolvedor Frontend",
     company: "Instituto Federal de Educação, Ciência e Tecnologia do Pará",
     date: "Jun 2022 - Dez 2022",
