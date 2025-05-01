@@ -21,7 +21,7 @@ const Card = styled.div`
 
   &:hover {
     box-shadow: 0 0 20px rgba(0, 0, 0, .2);
-    trasform: translateY(-5px);
+    transform: translateY(-5px);
   }
 
   @media screen and (max-width: 768px) {
