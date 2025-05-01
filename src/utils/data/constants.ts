@@ -16,7 +16,7 @@ import DioLogo from "../../images/logos/dio.png";
 export const Bio: ProfileBio = {
   name: "Wendell Morais",
   role: "Desenvolvedor Fullstack",
-  description: "Desenvolvedor de software há mais de dois anos, com experiência em desenvolvimento Fullstack. Amante de tecnologia desde pequeno, apaixonado por desenvolver ideias e transformá-las em realidade com a programação.",
+  description: "Amante de tecnologia desde pequeno e apaixonado por transformar ideias em soluções reais.",
   github: "https://github.com/wendellmoraisz",
   resume: "https://drive.google.com/file/d/1PN3g7D9GILlGRU1WzRN_3RhFeByck8ZN/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/wendell-morais/",
