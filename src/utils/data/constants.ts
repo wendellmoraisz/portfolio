@@ -8,6 +8,7 @@ import AlrigthLogo from "../../images/logos/alright.png";
 import TelluriaLogo from "../../images/logos/telluria.png";
 import FreelancerLogo from "../../images/logos/freelancer.png";
 import IFPALogo from "../../images/logos/ifpa.png";
+import AmbiparLogo from "../../images/logos/ambipar.png";
 
 export const Bio: ProfileBio = {
   name: "Wendell Morais",
@@ -127,11 +128,29 @@ export const SkillsSections: SkillSection[] = [
 
 export const Experiences: Experience[] = [
   {
+    id: 4,
+    companyLogo: AmbiparLogo,
+    role: "Desenvolvedor Fullstack",
+    company: "Ambipar Brasil - Tempo integral",
+    date: "Nov 2024 - Atualmente",
+    description: "Responsável pelo desenvolvimento de aplicações web utilizando React, TypeScript e Python, bem como pela criação de ferramentas para tratamento de dados geoespaciais. Experiência na manutenção e otimização de bancos de dados PostgreSQL, além da criação e gerenciamento de instâncias em serviços AWS. Atuação com versionamento de código utilizando Git, e participação em equipes ágeis seguindo a metodologia Scrum.",
+    skills: [
+      "TypeScript",
+      "ReactJs",
+      "Python",
+      "PostgreSQL",
+      "Docker",
+      "AWS",
+      "Git",
+      "Scrum",
+    ],
+  },
+  {
     id: 3,
     companyLogo: AlrigthLogo,
     role: "Desenvolvedor Fullstack",
     company: "Alright - Tempo integral",
-    date: "Fev 2024 - Atualmente",
+    date: "Fev 2024 - Out 2024",
     description: "Responsável pelo desenvolvimento de interfaces com React e TypeScript, criação e manutenção de APIs em PHP com Laravel, e elaboração de scripts Python para tratamento de dados e automação de processos. Experiência em versionamento de código com Git e GitHub, manipulação de bancos de dados MySQL e Google BigQuery, e suporte à equipe de operações na implantação de anúncios em websites. Atuando dentro do framework ágil Scrum, utilizando a ferramenta Monday para gestão de tarefas.",
     skills: [
       "TypeScript",
@@ -142,7 +161,7 @@ export const Experiences: Experience[] = [
       "MySQL",
       "Google BigQuery",
       "Apache Web Server",
-      "Amazon AWS",
+      "AWS",
       "Git",
       "Scrum",
     ],
