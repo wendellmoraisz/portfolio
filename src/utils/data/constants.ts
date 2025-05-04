@@ -13,6 +13,12 @@ import MicrosoftLogo from "../../images/logos/microsoft.png";
 import UdemyLogo from "../../images/logos/udemy.png";
 import DioLogo from "../../images/logos/dio.png";
 
+import NoticiasIFPA from "../../images/projects/noticias-ifpa.png";
+import TwitterDailyCat from "../../images/projects/twitter-daily-cat.png";
+import MoviesApi from "../../images/projects/movies-api.png";
+import SalesAssignment from "../../images/projects/sales-assignment.png";
+import GamesEcommerce from "../../images/projects/games-ecommerce.png";
+
 export const Bio: ProfileBio = {
   name: "Wendell Morais",
   role: "Desenvolvedor Fullstack",
@@ -240,7 +246,7 @@ export const Projects: Project[] = [
     id: 0,
     title: "News Scraping Microservices",
     description: "Aplicação com arquitetura de microsserviços que extrai novas notícias postados no site do IFPA Campus Altamira e as envia por e-mail.",
-    image: "https://i.imgur.com/c3VJobP.png",
+    image: NoticiasIFPA,
     tags: [
       "C#",
       ".NET",
@@ -259,7 +265,7 @@ export const Projects: Project[] = [
     id: 1,
     title: "News Scraping Monolithic",
     description: "Aplicação que extrai notícias inseridas no site do IFPA Campus Altamira e enviadas por email.",
-    image: "https://i.imgur.com/yhBKTkB.png",
+    image: NoticiasIFPA,
     tags: [
       "C#",
       ".NET",
@@ -272,24 +278,10 @@ export const Projects: Project[] = [
     repository: "https://github.com/wendellmoraisz/news-scraping-monolithic",
   },
   {
-    id: 2,
-    title: "Emails Register Page",
-    description: "Página de cadastro por e-mail para receber atualizações de novidades do IFPA Campus Altamira.",
-    image: "https://i.imgur.com/wXDUrTo.png",
-    tags: [
-      "TypeScript",
-      "React Js",
-      "Material UI",
-      "React Toastfy",
-      "Git",
-    ],
-    repository: "https://github.com/wendellmoraisz/emails-register-page",
-  },
-  {
     id: 3,
     title: "Twitter Daily Cat",
     description: "Bot que posta um gato todos os dias no Twitter criado usando Clean Architecture.",
-    image: "https://1000logos.net/wp-content/uploads/2017/06/Logo-Twitter.jpg",
+    image: TwitterDailyCat,
     tags: [
       "Typescript",
       "Node.js",
@@ -304,7 +296,7 @@ export const Projects: Project[] = [
     id: 4,
     title: "Movies API",
     description: "Api REST que permite gerenciamento de filmes, podendo cadastrá-los, editá-los, excluí-los e listá-los por paginação.",
-    image: "https://hips.hearstapps.com/hmg-prod/images/time-travel-movies-1581634382.jpg?crop=0.502xw:1.00xh;0.251xw,0&resize=640:*",
+    image: MoviesApi,
     tags: [
       "C#",
       ".NET",
@@ -316,9 +308,9 @@ export const Projects: Project[] = [
   },
   {
     id: 5,
-    title: "Sales Assigment",
+    title: "Sales Assignment",
     description: "Sistema de gerenciamento de vendas e comissão de vendedores. Onde o usuário logado como gerente pode aprovar as vendas do vendedor e gerar relatórios de vendas e comissão.",
-    image: "https://i.imgur.com/CM4JKu8.png",
+    image: SalesAssignment,
     tags: [
       "Javascript",
       "React Js",
@@ -333,7 +325,7 @@ export const Projects: Project[] = [
     id: 6,
     title: "Games E-commerce",
     description: "Frontend de um e-commerce de jogos, onde o usuário pode visualizar os jogos, adicioná-los ao carrinho e finalizar a compra. O sistema também possui uma página de admin para gerenciamento de estoque da loja.",
-    image: "https://raw.githubusercontent.com/wendellmoraisz/GamesEcommerce-client/3d1f4656610c25c2030411bb94bda46c1bbea5a5/public/screenshots/initial-page.png",
+    image: GamesEcommerce,
     tags: [
       "Typescript",
       "React Js",
