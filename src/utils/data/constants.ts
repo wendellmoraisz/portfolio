@@ -155,7 +155,7 @@ export const Experiences: Experience[] = [
     role: "Desenvolvedor Fullstack",
     company: "Ambipar Brasil - Tempo integral",
     date: "Nov 2024 - Atualmente",
-    description: "Responsável pelo desenvolvimento de aplicações web utilizando React, TypeScript e Python, bem como pela criação de ferramentas para tratamento de dados geoespaciais. Experiência na manutenção e otimização de bancos de dados PostgreSQL, além da criação e gerenciamento de instâncias em serviços AWS. Atuação com versionamento de código utilizando Git, e participação em equipes ágeis seguindo a metodologia Scrum.",
+    description: "Responsável pela modelagem e criação de aplicações serverless na AWS utilizando Python, Lambda, DynamoDB, S3, SES, API Gateway, AWS CDK e Docker. Experiência na automatização de processos de extração e tratamento de dados geoespaciais com Python, bem como na criação de testes unitários com Pytest. Desenvolvimento de fluxos automáticos integrando n8n, LLMs e Python, além da modelagem e desenvolvimento de aplicações web e desktop com React, TypeScript e Python. Atuação também na manutenção e otimização de banco de dados PostgreSQL, versionamento de código com Git e GitHub e participação em equipes ágeis seguindo a metodologia Scrum.",
     skills: [
       "TypeScript",
       "ReactJs",
