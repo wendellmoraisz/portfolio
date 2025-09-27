@@ -10,7 +10,7 @@ const ProjectsSection = ({ openModal, setOpenModal }: ModalProps) => {
       <Wrapper>
         <Title>Projetos</Title>
         <CardContainer>
-          {Projects.map((project) => <ProjectCard project={project} setOpenModal={setOpenModal} />)}
+          {Projects.map((project, index) => <ProjectCard key={index} project={project} setOpenModal={setOpenModal} />)}
         </CardContainer>
       </Wrapper>
     </Container>

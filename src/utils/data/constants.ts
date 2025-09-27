@@ -12,6 +12,7 @@ import AmbiparLogo from "../../images/logos/ambipar.png";
 import MicrosoftLogo from "../../images/logos/microsoft.png";
 import UdemyLogo from "../../images/logos/udemy.png";
 import DioLogo from "../../images/logos/dio.png";
+import UfesLogo from "../../images/logos/ufes.png";
 
 import NoticiasIFPA from "../../images/projects/noticias-ifpa.png";
 import TwitterDailyCat from "../../images/projects/twitter-daily-cat.png";
@@ -24,7 +25,7 @@ export const Bio: ProfileBio = {
   role: "Desenvolvedor Fullstack",
   description: "Amante de tecnologia desde pequeno e apaixonado por transformar ideias em soluções reais.",
   github: "https://github.com/wendellmoraisz",
-  resume: "https://drive.google.com/file/d/1PN3g7D9GILlGRU1WzRN_3RhFeByck8ZN/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1yjpDj6N93Feo2adWPSqi7WlMlQHPbQMW/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/wendell-morais/",
 };
 
@@ -154,7 +155,7 @@ export const Experiences: Experience[] = [
     role: "Desenvolvedor Fullstack",
     company: "Ambipar Brasil - Tempo integral",
     date: "Nov 2024 - Atualmente",
-    description: "Responsável pelo desenvolvimento de aplicações web utilizando React, TypeScript e Python, bem como pela criação de ferramentas para tratamento de dados geoespaciais. Experiência na manutenção e otimização de bancos de dados PostgreSQL, além da criação e gerenciamento de instâncias em serviços AWS. Atuação com versionamento de código utilizando Git, e participação em equipes ágeis seguindo a metodologia Scrum.",
+    description: "Responsável pela modelagem e criação de aplicações serverless na AWS utilizando Python, Lambda, DynamoDB, S3, SES, API Gateway, AWS CDK e Docker. Experiência na automatização de processos de extração e tratamento de dados geoespaciais com Python, bem como na criação de testes unitários com Pytest. Desenvolvimento de fluxos automáticos integrando n8n, LLMs e Python, além da modelagem e desenvolvimento de aplicações web e desktop com React, TypeScript e Python. Atuação também na manutenção e otimização de banco de dados PostgreSQL, versionamento de código com Git e GitHub e participação em equipes ágeis seguindo a metodologia Scrum.",
     skills: [
       "TypeScript",
       "ReactJs",
@@ -336,6 +337,14 @@ export const Projects: Project[] = [
 ];
 
 export const Educations: Education[] = [
+  {
+    id: 7,
+    courseName: "Aluno Especial de Mestrado em Ciência da Computação",
+    schoolName: "Universidade Federal do Espírito Santo - UFES",
+    schollLogo: UfesLogo,
+    date: "Set 2025 - Fev 2026",
+    description: "Disciplina cursada: Engenharia de Software.",
+  },
   {
     id: 0,
     courseName: "Tecnologia em Análise e Desenvolvimento de Sistemas",
