@@ -90,9 +90,9 @@ interface ProjectCardProps {
 const ProjectCard = ({ project, setOpenModal }: ProjectCardProps) => {
   return (
     <Card onClick={() => setOpenModal({ state: true, project: project })}>
-      <Image src={project.image} />
+      <Image src={project.image} alt={`${project.title}`}/>
       <Tags>
-        {project.tags.map((tag) => <Tag>{tag}</Tag>)}
+        {project.tags.map((tag, index) => <Tag key={index}>{tag}</Tag>)}
       </Tags>
       <Details>
         <Title>{project.title}</Title>

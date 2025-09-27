@@ -127,7 +127,7 @@ const ExperienceCard = ({ experience } : ExperienceCardProps) => {
   return (
     <Card>
       <Top>
-        <Logo src={experience.companyLogo} />
+        <Logo src={experience.companyLogo} alt={`Logo ${experience.company}`}/>
         <Body>
           <Role>{experience.role}</Role>
           <Company>{experience.company}</Company>
@@ -140,7 +140,7 @@ const ExperienceCard = ({ experience } : ExperienceCardProps) => {
           <b>Habilidades:</b>
           <ItemWapper>
             {experience.skills.map((skill, index) => (
-              <Skill>{skill}</Skill>
+              <Skill key={index}>{skill}</Skill>
             ))}
           </ItemWapper>
         </Skills>

@@ -19,7 +19,7 @@ const Profile = () => {
             <ResumeButton href={Bio.resume} target="blank">Ver Currículo</ResumeButton>
           </ProfileLeftContainer>
           <ProfileRightContainer>
-            <Image src={ProfileImage} alt="Profile Image"/>
+            <Image src={ProfileImage} alt={`Profile Image ${Bio.name}`}/>
           </ProfileRightContainer>
         </ProfileInnerContainer>
       </ProfileContainer>
