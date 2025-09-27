@@ -12,6 +12,7 @@ import AmbiparLogo from "../../images/logos/ambipar.png";
 import MicrosoftLogo from "../../images/logos/microsoft.png";
 import UdemyLogo from "../../images/logos/udemy.png";
 import DioLogo from "../../images/logos/dio.png";
+import UfesLogo from "../../images/logos/ufes.png";
 
 import NoticiasIFPA from "../../images/projects/noticias-ifpa.png";
 import TwitterDailyCat from "../../images/projects/twitter-daily-cat.png";
@@ -336,6 +337,14 @@ export const Projects: Project[] = [
 ];
 
 export const Educations: Education[] = [
+  {
+    id: 7,
+    courseName: "Aluno Especial de Mestrado em Ciência da Computação",
+    schoolName: "Universidade Federal do Espírito Santo - UFES",
+    schollLogo: UfesLogo,
+    date: "Set 2025 - Fev 2026",
+    description: "Disciplina cursada: Engenharia de Software.",
+  },
   {
     id: 0,
     courseName: "Tecnologia em Análise e Desenvolvimento de Sistemas",
