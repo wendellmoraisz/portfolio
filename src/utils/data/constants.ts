@@ -25,7 +25,7 @@ export const Bio: ProfileBio = {
   role: "Desenvolvedor Fullstack",
   description: "Amante de tecnologia desde pequeno e apaixonado por transformar ideias em soluções reais.",
   github: "https://github.com/wendellmoraisz",
-  resume: "https://drive.google.com/file/d/1PN3g7D9GILlGRU1WzRN_3RhFeByck8ZN/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1yjpDj6N93Feo2adWPSqi7WlMlQHPbQMW/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/wendell-morais/",
 };
 
